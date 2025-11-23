@@ -9,7 +9,7 @@ permalink: /blog/
 <div class="flex flex-col gap-10">
   {% for post in site.posts %}
   <article class="group cursor-pointer">
-    <a href="{{ post.url }}" class="block">
+    <a href="{{ post.url | relative_url }}" class="block">
       <div class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
         <span class="text-sm text-gray-400 font-medium w-32 shrink-0">
           {{ post.date | date: "%B %d, %Y" }}
