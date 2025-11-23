@@ -1,8 +1,8 @@
 title: Raviraj Halarnekar
 email: ravirajrh@outlook.com
 description: Network Engineer & System Admin
-baseurl: ""
-url: ""
+url: "https://ravirajh.github.io" # Your main domain
+baseurl: "/sshravi"               # The name of your repository (Project Name)
 twitter_username: ravirajrh
 github_username: ravirajrh
 

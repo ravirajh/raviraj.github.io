@@ -9,7 +9,7 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
 
-    <!-- Inter Font (Google Fonts) -->
+    <!-- Inter Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
@@ -18,40 +18,16 @@
         tailwind.config = {
             darkMode: 'class',
             theme: {
-                fontFamily: {
-                    sans: ['Inter', 'sans-serif'],
-                },
+                fontFamily: { sans: ['Inter', 'sans-serif'], },
                 extend: {
-                    colors: {
-                        gray: {
-                            900: '#111111', // Deep black for dark mode
-                            50: '#F9FAFB',
-                        }
-                    },
+                    colors: { gray: { 900: '#111111', 50: '#F9FAFB', } },
                     typography: (theme) => ({
-                        DEFAULT: {
-                            css: {
-                                color: theme('colors.gray.700'),
-                                a: {
-                                    color: theme('colors.gray.900'),
-                                    '&:hover': { color: theme('colors.gray.600') },
-                                },
-                            },
-                        },
-                        invert: {
-                            css: {
-                                color: theme('colors.gray.300'),
-                                a: {
-                                    color: theme('colors.white'),
-                                    '&:hover': { color: theme('colors.gray.300') },
-                                },
-                            },
-                        },
+                        DEFAULT: { css: { color: theme('colors.gray.700'), a: { color: theme('colors.gray.900'), '&:hover': { color: theme('colors.gray.600') }, }, }, },
+                        invert: { css: { color: theme('colors.gray.300'), a: { color: theme('colors.white'), '&:hover': { color: theme('colors.gray.300') }, }, }, },
                     }),
                 }
             }
         }
-
         // Dark Mode Logic
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
@@ -59,13 +35,11 @@
             document.documentElement.classList.remove('dark')
         }
     </script>
-
     <style>
         body {
             font-family: 'Inter', sans-serif;
         }
 
-        /* Custom Scrollbar for a cleaner look */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -91,14 +65,17 @@
     <!-- Navigation -->
     <nav class="w-full max-w-5xl mx-auto px-6 py-8 flex justify-between items-center">
         <!-- Logo -->
-        <a href="/" class="font-bold text-lg tracking-tighter hover:opacity-70 transition-opacity">RH</a>
+        <a href="{{ site.baseurl }}/"
+            class="font-bold text-lg tracking-tighter hover:opacity-70 transition-opacity">RH</a>
 
         <!-- Links -->
         <div class="flex items-center gap-6 md:gap-8 text-sm font-medium text-gray-600 dark:text-gray-400">
-            <a href="/" class="hover:text-black dark:hover:text-white transition-colors">Home</a>
-            <a href="/writing" class="hover:text-black dark:hover:text-white transition-colors">Writing</a>
-            <a href="/gallery" class="hover:text-black dark:hover:text-white transition-colors">Gallery</a>
-            <a href="/cv" class="hover:text-black dark:hover:text-white transition-colors">CV</a>
+            <a href="{{ site.baseurl }}/" class="hover:text-black dark:hover:text-white transition-colors">Home</a>
+            <a href="{{ site.baseurl }}/writing"
+                class="hover:text-black dark:hover:text-white transition-colors">Writing</a>
+            <a href="{{ site.baseurl }}/gallery"
+                class="hover:text-black dark:hover:text-white transition-colors">Gallery</a>
+            <a href="{{ site.baseurl }}/cv" class="hover:text-black dark:hover:text-white transition-colors">CV</a>
 
             <!-- Theme Toggle -->
             <button id="theme-toggle" class="hover:text-black dark:hover:text-white transition-colors"
@@ -117,12 +94,10 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main class="flex-grow w-full max-w-5xl mx-auto px-6 pt-12 pb-20">
         {{ content }}
     </main>
 
-    <!-- Footer -->
     <footer
         class="w-full max-w-5xl mx-auto px-6 py-10 border-t border-gray-100 dark:border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
         <span>&copy; {{ site.time | date: '%Y' }} Raviraj Halarnekar</span>
