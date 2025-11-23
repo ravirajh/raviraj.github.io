@@ -4,7 +4,7 @@ title: Blog
 permalink: /Blog/
 ---
 
-<h1 class="text-3xl font-bold mb-12 tracking-tight">Writing</h1>
+<h1 class="text-3xl font-bold mb-12 tracking-tight">Blog</h1>
 
 <div class="flex flex-col gap-10">
   {% for post in site.posts %}
