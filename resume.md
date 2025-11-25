@@ -1,126 +1,70 @@
 ---
 layout: default
-title: resume
-permalink: /resume/
+title: Raviraj Halarnekar - Network Engineer
+permalink: /
 ---
 
-<div class="max-w-3xl mx-auto">
-
-  <!-- Header -->
-  <header class="mb-16">
-    <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-2">RAVIRAJ HALARNEKAR</h1>
-    <p class="text-lg text-gray-600 dark:text-gray-400 mb-4">Network Engineer</p>
-    <div class="flex flex-wrap gap-4 text-sm text-gray-500 font-medium">
-      <span class="flex items-center gap-1">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-        +91-XXXXXXXXXXX
-      </span>
-      <span class="flex items-center gap-1">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-        ravirajrh@outlook.com
-      </span>
-      <span class="flex items-center gap-1">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-        Bengaluru, Karnataka
-      </span>
-    </div>
-  </header>
-
-  <hr class="border-gray-200 dark:border-gray-800 mb-12">
-
-  <!-- Summary -->
-  <section class="mb-12">
-    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Summary</h3>
-    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
-      Network Engineer with hands-on experience in technical support, network operations, and enterprise-wide infrastructure management. Skilled in configuring, maintaining, and upgrading routers, switches, firewalls, and wireless controllers.
-    </p>
-  </section>
-
-  <!-- Experience -->
-  <section class="mb-12">
-    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Experience</h3>
-    
-    <!-- Job 1 -->
-    <div class="mb-10">
-      <div class="flex justify-between items-baseline mb-1">
-        <h2 class="text-lg font-bold text-gray-900 dark:text-white">Oracle Cerner</h2>
-        <span class="text-xs font-mono text-gray-500">Dec 2022 – Present</span>
-      </div>
-      <div class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Network Engineer • Bengaluru, Karnataka</div>
-      <ul class="list-disc list-outside ml-4 space-y-2 text-gray-700 dark:text-gray-300 text-sm">
-        <li>Manage data center networks across 15 U.S. locations within the NOC team.</li>
-        <li>Execute critical upgrades on Cisco L3 switches, firewalls, and wireless controllers.</li>
-        <li>Maintain compliance via Palo Alto firewall upgrades and policy management.</li>
-        <li>Provide 24x7 on-call support for critical data center incidents.</li>
-      </ul>
-    </div>
-
-    <!-- Job 2 -->
-    <div class="mb-10">
-      <div class="flex justify-between items-baseline mb-1">
-        <h2 class="text-lg font-bold text-gray-900 dark:text-white">Allied Digital Services Ltd</h2>
-        <span class="text-xs font-mono text-gray-500">Dec 2021 – Dec 2022</span>
-      </div>
-      <div class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Network Engineer – L2 • Panaji, Goa</div>
-      <ul class="list-disc list-outside ml-4 space-y-2 text-gray-700 dark:text-gray-300 text-sm">
-        <li>Administered Cisco SD-WAN (Viptela) via vManage for edge device configuration.</li>
-        <li>Managed Cisco ISE for TACACS+ and RADIUS authentication protocols.</li>
-        <li>Configured Cisco WLC 5520 managing 100+ APs across 10 sites.</li>
-        <li>Maintained FortiGate Firewalls (600E, 100F) handling site-to-site and SSL VPNs.</li>
-      </ul>
-    </div>
-
-    <!-- Job 3 -->
-    <div class="mb-10">
-      <div class="flex justify-between items-baseline mb-1">
-        <h2 class="text-lg font-bold text-gray-900 dark:text-white">Fahrenheit Hotels and Resorts</h2>
-        <span class="text-xs font-mono text-gray-500">Jan 2017 – Nov 2021</span>
-      </div>
-      <div class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Network System Engineer • Goa</div>
-      <ul class="list-disc list-outside ml-4 space-y-2 text-gray-700 dark:text-gray-300 text-sm">
-        <li>Led IT operations and infrastructure planning for hospitality services.</li>
-        <li>Deployed and maintained Ubiquiti UniFi wireless infrastructure.</li>
-        <li>Managed vendor contracts and domain compliance (ICANN).</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section class="mb-12">
-    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Technical Skills</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
-      <div>
-        <span class="block font-semibold text-gray-900 dark:text-white mb-1">Infrastructure</span>
-        <p class="text-gray-600 dark:text-gray-400">Cisco ISR 1100/4431, Catalyst 9500/9300, Nexus Series, Ubiquiti Edge</p>
-      </div>
-      <div>
-        <span class="block font-semibold text-gray-900 dark:text-white mb-1">Security</span>
-        <p class="text-gray-600 dark:text-gray-400">Cisco ISE, FortiGate 600E/100F, Palo Alto NGFW, FortiSandbox, Cisco FMC</p>
-      </div>
-      <div>
-        <span class="block font-semibold text-gray-900 dark:text-white mb-1">Protocols</span>
-        <p class="text-gray-600 dark:text-gray-400">OSPF, BGP, EIGRP, VLAN, STP, IPSec/SSL VPN, TACACS+, RADIUS</p>
-      </div>
-      <div>
-        <span class="block font-semibold text-gray-900 dark:text-white mb-1">Tools & OS</span>
-        <p class="text-gray-600 dark:text-gray-400">GNS3, Wireshark, Nmap, Python (Basic), Linux (Debian), Windows Server</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Certifications -->
-  <section>
-    <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Certifications</h3>
-    <ul class="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-      <li class="flex items-center gap-2">
-        <div class="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-        <strong>CCNP ENCOR (350-401)</strong> – Cisco Certified Network Professional
-      </li>
-      <li class="flex items-center gap-2">
-        <div class="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-        <strong>CCNA</strong> – Cisco Certified Network Associate
-      </li>
-    </ul>
-  </section>
-
+# Raviraj Halarnekar
+<div class="header-title">Network Engineer</div>
+<div class="contact-bar">
+Bengaluru, Karnataka | <a href="mailto:ravirajrh@outlook.com">ravirajrh@outlook.com</a> | +91-XXXXXXXXXXX
 </div>
+
+## Profile Summary
+Network Engineer with hands-on experience in technical support, network operations, and enterprise-wide infrastructure management. Skilled in configuring, maintaining, and upgrading routers, switches, firewalls, and wireless controllers, with a strong understanding of routing, switching, and security protocols.
+
+## Technical Skills
+
+*   **Network Protocols:** OSPF, BGP, EIGRP, STP (RSTP/MST), HSRP, VRRP, LISP, VXLAN.
+*   **Hardware & Platforms:** Cisco Catalyst 9000 series, ISR/ASR Routers, Cisco Nexus (basic), WLC.
+*   **Network Security:** ACLs, VPN (GRE/IPsec), AAA, CoPP, Zone-Based Firewalls, 802.1X.
+*   **SDN & Automation:** Cisco Viptela SD-WAN, Python (Basic), REST APIs, JSON/YAML, Postman.
+*   **Tools & Monitoring:** Wireshark, SolarWinds, SNMP, NetFlow, Syslog,GNS3, EVE-NG.
+*   **Security Devices:** Cisco ISE (VM-ISE-2.7), FortiGate 600E/100F, Palo Alto NGFW, Cisco FMC, FortiSandbox 1000F
+
+## Professional Experience
+
+### Network Engineer <span class="date">Dec 2022 – Present</span>
+**Oracle Cerner** | *Bengaluru, Karnataka*
+*   **Infrastructure Lifecycle Management:** Executed critical firmware, software, and hardware upgrades across **Cisco** (Catalyst/Nexus), **Dell**, and **Palo Alto** environments to ensure feature compatibility and network stability.
+*   **Vulnerability Remediation:** Managed security compliance by applying timely OS patches and hotfixes to mitigate known vulnerabilities (PSIRTs/CVEs) on routers, switches, and firewalls.
+*   **24x7 On-Call Support:** Delivered 24x7 on-call technical support for critical outages, acting as the escalation point for resolving complex L2/L3 network incidents.
+*   **Change Management:** Planned and implemented maintenance windows using strict Methods of Procedure (MOPs) to minimize downtime during network changes.
+
+### Network Engineer – L2 <span class="date">Dec 2021 – Dec 2022</span>
+**Allied Digital Services Ltd (Vedanta IOB Data Center)** | *Panaji, Goa*
+
+*   **SD-WAN & WAN Administration:** Administered **Cisco SD-WAN (Viptela)** infrastructure via vManage to oversee edge device configuration and ensure stable WAN connectivity across 10+ critical enterprise sites.
+*   **Network Security & VPN Management:** Managed **FortiGate Next-Generation Firewalls (600E/100F)**, configuring Site-to-Site and SSL VPN tunnels to ensure secure branch connectivity and remote user access.
+*   **Wireless & Access Control:** Integrated **Cisco WLC 5520** (managing 100+ APs) with **Cisco ISE** to enforce granular access policies, utilizing TACACS+ for device administration and RADIUS for secure Wi-Fi authentication.
+*   **Threat Defense & Compliance:** Operated **FortiSandbox 1000F** and **Fortinet EMS** for advanced malware detection and endpoint security. Collaborated with the SOC team to analyze TATA SIEM logs and remediate **VAPT** audit observations.
+*   **Operations & SLA Management:** Executed technical Change Requests (CRs) and maintained monthly configuration backups, consistently achieving **95%+ SLA compliance** for network uptime and incident resolution.
+
+### Network System Engineer <span class="date">Jan 2017 – Nov 2021</span>
+**Fahrenheit Hotels and Resorts** | *Calangute, Goa*
+
+*   **Network Operations:** Managed the end-to-end campus network infrastructure, ensuring 24/7 uptime for critical administrative systems and high-density guest networks.
+*   **Wireless Modernization:** Led the migration and upgrade of the wireless network using **Ubiquiti UniFi**, conducting site surveys and optimizing channel width/power to eliminate dead zones.
+*   **Infrastructure Security:** implemented network segmentation (VLANs) to isolate Guest traffic from Corporate data and PCI-DSS compliant payment systems.
+*   **Vendor & WAN Management:** Managed ISP relationships and vendor contracts to ensure redundant WAN connectivity and optimize bandwidth for high-occupancy periods.
+*   **System Implementation:** Deployed the network infrastructure required to support the FX GEM Contactless Hospitality Solution, ensuring low-latency connectivity for mobile operations.
+
+### Apprentice Engineer <span class="date">Jan 2015 – Apr 2016</span>
+**Smartlink Network Systems Ltd** | *Verna, Goa*
+
+*   **Data Center Operations:** Executed daily backups and routine health checks for IBM Blade Center infrastructure (AIX) to ensure data integrity and system availability.
+*   **L1 Network Support:** Provided First-Line troubleshooting for LAN connectivity, resolving physical cabling faults and IP addressing issues for end-users.
+*   **User Access Administration:** Managed user roles and access permissions for Oracle ERP systems, ensuring secure application connectivity.
+
+## Certifications & Awards
+- **CCNP ENCOR (350-401)** – Cisco Certified Network Professional
+- **CCNA** – Cisco Certified Network Associate
+- **Best Performer** – CSD (2022) Award 
+
+## Education
+
+### Bachelor of Engineering (Computer Engineering)
+**Padre Conceição College of Engineering** | *Goa University*
+
+### Diploma in Computer Engineering
+**Agnel Polytechnic** | *Board of Technical Education, Goa*
