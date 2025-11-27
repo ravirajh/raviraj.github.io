@@ -24,7 +24,7 @@ Network Engineer with hands-on experience in technical support, network operatio
 
 ## Professional Experience
 
-### Network Engineer
+### Network/Telecom Systems Analyst 1
 **Oracle Cerner** | *Bengaluru, Karnataka* | *Dec 2022 – Present*
 
 *   **Infrastructure Lifecycle Management:** Executed critical firmware upgrades across **Cisco** (Catalyst/Nexus), **Dell**, and **Palo Alto** environments to ensure feature compatibility and network stability.
