@@ -24,7 +24,7 @@ Network Engineer with hands-on experience in technical support, network operatio
 
 ## Professional Experience
 
-### Network/Telecom Systems Analyst 1
+### Network/Telecom Systems Analyst 
 **Oracle Cerner** | *Bengaluru, Karnataka* | *Dec 2022 – Present*
 
 *   **Infrastructure Lifecycle Management:** Executed critical firmware upgrades across **Cisco** (Catalyst/Nexus), **Dell**, and **Palo Alto** environments to ensure feature compatibility and network stability.
@@ -40,6 +40,7 @@ Network Engineer with hands-on experience in technical support, network operatio
 *   **Wireless & Access Control:** Managed **Cisco WLC 5520** (100+ APs) with **Cisco ISE** to enforce granular access policies, utilizing TACACS+ for device administration and RADIUS for secure Wi-Fi authentication.
 *   **Threat Defense & Compliance:** Managed **FortiSandbox 1000F** and **Fortinet EMS** for advanced malware detection and endpoint security. Collaborated with the SOC team to analyze TATA SIEM logs and remediate **VAPT** audit observations.
 *   **Operations & SLA Management:** Executed technical Change Requests (CRs) and maintained monthly configuration backups, consistently achieving **95%+ SLA compliance** for network uptime and incident resolution.
+*   **Audit:** 
 
 ### Network System Engineer
 **Fahrenheit Hotels and Resorts** | *Calangute, Goa* | *Jan 2017 – Nov 2021*
@@ -53,7 +54,7 @@ Network Engineer with hands-on experience in technical support, network operatio
 ### Apprentice Engineer
 **Smartlink Network Systems Ltd** | *Verna, Goa* | *Jan 2015 – Apr 2016*
 
-*   **Data Center Operations:** Executed daily backups and routine health checks for IBM Blade Center infrastructure (AIX) to ensure data integrity and system availability.
+*   **Data Center Operations:** Executed daily backups and routine health checks for IBM Blade Center infrastructure (AIX) .
 *   **L1 Network Support:** Provided First-Line troubleshooting for LAN connectivity, resolving physical cabling faults and IP addressing issues for end-users.
 *   **User Access Administration:** Managed user roles and access permissions for Oracle ERP systems, ensuring secure application connectivity.
 
