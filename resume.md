@@ -20,7 +20,7 @@ Network Engineer with hands-on experience in technical support, network operatio
 *   **Network Security:** ACLs, VPN (GRE/IPsec), AAA, CoPP, 802.1X.
 *   **SDN & Automation:** Cisco Viptela SD-WAN, Python (Basic), REST APIs, JSON/YAML, Postman.
 *   **Tools & Monitoring:** SolarWinds, Wireshark, SNMP, NetFlow, Syslog, GNS3, EVE-NG.
-*   **Security Devices:** Cisco ISE 2.7, FortiGate Firewall platforms 600E/100F, Palo Alto NGFW, Cisco FMC, FortiSandbox 1000F, Fortinet EMS.
+*   **Security Devices:** Cisco ISE 2.7, FortiGate Firewall platforms 600E/100F, Palo Alto NGFW (PA-3420/PA-440/PA-2200), Cisco FMC, FortiSandbox 1000F, Fortinet EMS.
 
 ## Professional Experience
 
@@ -36,7 +36,7 @@ Network Engineer with hands-on experience in technical support, network operatio
 **Allied Digital Services Ltd (Vedanta Iron Ore Business Data Center)** | *Panaji, Goa* | *Dec 2021 – Dec 2022*
 
 *   **SD-WAN & WAN Administration:** Administered **Cisco SD-WAN (Viptela)** infrastructure via vManage to oversee edge device configuration and ensure stable WAN connectivity across 10+ critical enterprise sites.
-*   **Network Security & VPN Management:** Managed **FortiGate Next-Generation Firewalls (600E/100F)**, configuring Site-to-Site and SSL VPN tunnels to ensure secure branch connectivity and remote user access.
+*   **Network Security & VPN Management:** Managed **FortiGate Next-Generation Firewalls (600E/200G/100F)**, configuring Site-to-Site and SSL VPN tunnels to ensure secure branch connectivity and remote user access.
 *   **Wireless & Access Control:** Managed **Cisco WLC 5520** (100+ APs) with **Cisco ISE** to enforce granular access policies, utilizing TACACS+ for device administration and RADIUS for secure Wi-Fi authentication.
 *   **Threat Defense & Compliance:** Managed **FortiSandbox 1000F** and **Fortinet EMS** for advanced malware detection and endpoint security. Collaborated with the SOC team to analyze TATA SIEM logs and remediate **VAPT** audit observations.
 *   **Operations & SLA Management:** Executed technical Change Requests (CRs) and maintained monthly configuration backups, consistently achieving **95%+ SLA compliance** for network uptime and incident resolution.
